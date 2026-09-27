@@ -1,0 +1,20 @@
+.git
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.pyright/
+.coverage
+htmlcov/
+
+# Artifacts are rebuilt inside the image.
+artifacts/*
+!artifacts/.gitkeep
+*.joblib
+*.pt
+*.pth
+
+# Local-only test and editor files.
+tests/
+.vscode/
+.idea/

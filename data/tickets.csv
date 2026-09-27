@@ -1,0 +1,25 @@
+text,label
+"charged twice for my monthly subscription",billing
+"my invoice includes an unexpected tax charge",billing
+"please send me a copy of my payment receipt",billing
+"my card payment was declined during renewal",billing
+"please explain the amount on my latest invoice",billing
+"i need a refund for a duplicate subscription payment",billing
+"the mobile app crashes when i open the dashboard",technical
+"the api request returns a timeout error",technical
+"i cannot upload an attachment to my support ticket",technical
+"the website shows a blank screen after login",technical
+"notifications are not arriving in the mobile app",technical
+"the export button raises an error every time",technical
+"i cannot sign in to my account",account
+"please change the email address on my profile",account
+"i forgot my account password",account
+"how do i enable two factor authentication",account
+"my account is locked after several attempts",account
+"please deactivate my user account",account
+"where is my order shipment",shipping
+"my package delivery is delayed",shipping
+"the tracking number shows no movement",shipping
+"the item arrived with damaged packaging",shipping
+"i need to update the delivery address",shipping
+"when will my replacement package arrive",shipping
