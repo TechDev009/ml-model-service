@@ -114,3 +114,10 @@ uv run pytest --cov=ml_model_service --cov-report=term-missing
 
 All tests are local and network-free. See `SECURITY.md` for the demo's security
 posture and `CONTRIBUTING.md` for change guidelines.
+
+## Public release / status
+
+- **Local quickstart:** Run `uv sync --locked`, train the default model, and start the API using the commands in [Quickstart](#quickstart).
+- **CI/tests:** GitHub Actions runs Ruff formatting and lint checks, Pyright, and the network-free pytest suite with coverage.
+- **Limitations:** The models use only 24 short synthetic examples and are not production-quality language understanding; see [ML concepts and limitations](#ml-concepts-and-limitations) and [SECURITY.md](SECURITY.md).
+- **Production:** The local demo needs no cloud account. Real production deployment requires operator-managed credentials, security controls, and cloud/deployment infrastructure; this repository does not provide a hosted service.
